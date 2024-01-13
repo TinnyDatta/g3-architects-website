@@ -183,6 +183,22 @@ padding: 30px;
     width: 165px;
 }
 
+/* footer section */
+footer{
+    width: 1440px;
+    height: 100px;
+    border-radius: 8px;
+background: #FFF4E7;
+margin: 130px 240px;
+}
+ .footer-para{
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 38px 410px;
+    
+}
+
 /* Responsive media queries for header section */
 /* mobile devices */
 @media screen and (max-width: 576px) {
@@ -216,6 +232,13 @@ padding: 30px;
 .facts-card-container{
     gap: 20px;
 }
+footer{
+    width: 400px;
+   margin: 0px;
+}
+.footer-para{
+    padding: 10px;
+}
 
 }
 /* tablet or medium devices */
@@ -230,5 +253,12 @@ padding: 30px;
     .sponsors-img-container
     {
         flex-direction: column;
+    }
+    footer{
+        width: 800px;
+       margin: 50px;
+    }
+    .footer-para{
+        padding: 30px 50px;
     }
 }
